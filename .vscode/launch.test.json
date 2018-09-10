@@ -1,0 +1,138 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "azure-active-directory-spring-boot-sample",
+                "projectName": "azure-active-directory-spring-boot-sample",
+                "workingDirectory": "d:\\Java\\azure-spring-boot\\azure-spring-boot-samples\\azure-active-directory-spring-boot-sample",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "azure-storage-spring-boot-sample",
+                "projectName": "azure-storage-spring-boot-sample",
+                "workingDirectory": "d:\\Java\\azure-spring-boot\\azure-spring-boot-samples\\azure-storage-spring-boot-sample",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "azure-mediaservices-spring-boot-sample",
+                "projectName": "azure-mediaservices-spring-boot-sample",
+                "workingDirectory": "d:\\Java\\azure-spring-boot\\azure-spring-boot-samples\\azure-mediaservices-spring-boot-sample",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "azure-cloud-foundry-service-sample",
+                "projectName": "azure-cloud-foundry-service-sample",
+                "workingDirectory": "d:\\Java\\azure-spring-boot\\azure-spring-boot-samples\\azure-cloud-foundry-service-sample",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "azure-cosmosdb-spring-boot-sample",
+                "projectName": "azure-cosmosdb-spring-boot-sample",
+                "workingDirectory": "d:\\Java\\azure-spring-boot\\azure-spring-boot-samples\\azure-cosmosdb-spring-boot-sample",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "azure-servicebus-spring-boot-sample",
+                "projectName": "azure-servicebus-spring-boot-sample",
+                "workingDirectory": "d:\\Java\\azure-spring-boot\\azure-spring-boot-samples\\azure-servicebus-spring-boot-sample",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "azure-keyvault-secrets-spring-boot-sample",
+                "projectName": "azure-keyvault-secrets-spring-boot-sample",
+                "workingDirectory": "d:\\Java\\azure-spring-boot\\azure-spring-boot-samples\\azure-keyvault-secrets-spring-boot-sample",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "azure-active-directory-spring-boot-sample",
+                "projectName": "azure-active-directory-spring-boot-sample",
+                "workingDirectory": "d:\\Java\\azure-spring-boot\\azure-spring-boot-samples\\azure-active-directory-spring-boot-sample",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "azure-storage-spring-boot-sample",
+                "projectName": "azure-storage-spring-boot-sample",
+                "workingDirectory": "d:\\Java\\azure-spring-boot\\azure-spring-boot-samples\\azure-storage-spring-boot-sample",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "azure-mediaservices-spring-boot-sample",
+                "projectName": "azure-mediaservices-spring-boot-sample",
+                "workingDirectory": "d:\\Java\\azure-spring-boot\\azure-spring-boot-samples\\azure-mediaservices-spring-boot-sample",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "azure-cloud-foundry-service-sample",
+                "projectName": "azure-cloud-foundry-service-sample",
+                "workingDirectory": "d:\\Java\\azure-spring-boot\\azure-spring-boot-samples\\azure-cloud-foundry-service-sample",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "azure-cosmosdb-spring-boot-sample",
+                "projectName": "azure-cosmosdb-spring-boot-sample",
+                "workingDirectory": "d:\\Java\\azure-spring-boot\\azure-spring-boot-samples\\azure-cosmosdb-spring-boot-sample",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "azure-servicebus-spring-boot-sample",
+                "projectName": "azure-servicebus-spring-boot-sample",
+                "workingDirectory": "d:\\Java\\azure-spring-boot\\azure-spring-boot-samples\\azure-servicebus-spring-boot-sample",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            },
+            {
+                "name": "azure-keyvault-secrets-spring-boot-sample",
+                "projectName": "azure-keyvault-secrets-spring-boot-sample",
+                "workingDirectory": "d:\\Java\\azure-spring-boot\\azure-spring-boot-samples\\azure-keyvault-secrets-spring-boot-sample",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}
