@@ -6,7 +6,6 @@
 
 package com.microsoft.azure.keyvault.spring;
 
-
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,8 +15,8 @@ import org.springframework.core.env.MutablePropertySources;
 import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.core.env.EnvironmentCapable;
+
 import static org.junit.Assert.assertFalse;
-import com.microsoft.rest.protocol.Environment;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 public class KeyVaultEnvironmentPostProcessorHelperUnitTest {
@@ -30,10 +29,10 @@ public class KeyVaultEnvironmentPostProcessorHelperUnitTest {
         final MutablePropertySources sources =
         ((ConfigurableEnvironment) context.getEnvironment()).getPropertySources();
     
-        assertFalse("PropertySources should not contain MSI_ENDPOINT When not on Azure environment",
+        assertFalse("PropertySources should not contain MSI_ENDPOINT when not on Azure environment",
         sources.contains("MSI_ENDPOINT"));
 
-        assertFalse("PropertySources should not contain MSI_SECRET When not on Azure environment",
+        assertFalse("PropertySources should not contain MSI_SECRET when not on Azure environment",
         sources.contains("MSI_SECRET"));
     }  
 }
