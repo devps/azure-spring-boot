@@ -23,6 +23,7 @@ public class KeyVaultEnvironmentPostProcessorHelperUnitTest {
 
     @Autowired
     ApplicationContext context;
+
     private KeyVaultEnvironmentPostProcessorHelper keyVaultEnvironmentPostProcessorHelper;
 
     @Before
@@ -47,6 +48,5 @@ public class KeyVaultEnvironmentPostProcessorHelperUnitTest {
 
         assertFalse("PropertySources should not contain MSI_SECRET when not on Azure environment",
         sources.contains("MSI_SECRET"));
-    }   
+    }
 }
-
