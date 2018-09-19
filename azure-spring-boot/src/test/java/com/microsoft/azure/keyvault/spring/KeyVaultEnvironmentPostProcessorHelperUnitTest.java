@@ -23,6 +23,19 @@ public class KeyVaultEnvironmentPostProcessorHelperUnitTest {
 
     @Autowired
     ApplicationContext context;
+    private KeyVaultEnvironmentPostProcessorHelper keyVaultEnvironmentPostProcessorHelper;
+
+    @Before
+    public void setup() {
+        final ConfigurableEnvironment env = (ConfigurableEnvironment) context.getEnvironment();
+        keyVaultEnvironmentPostProcessorHelper = 
+            new KeyVaultEnvironmentPostProcessorHelper(env);
+    }
+    // Test case will pass if MSI fails to authenticate
+    @Test(expected = RuntimeException.class)
+    public void testMSIAuthentication() {
+        keyVaultEnvironmentPostProcessorHelper.addKeyVaultPropertySource();
+    }  
 
     @Test
     public void testMSIAuthPropertiesNotInitialized() {
@@ -34,5 +47,6 @@ public class KeyVaultEnvironmentPostProcessorHelperUnitTest {
 
         assertFalse("PropertySources should not contain MSI_SECRET when not on Azure environment",
         sources.contains("MSI_SECRET"));
-    }  
+    }   
 }
+
