@@ -15,6 +15,7 @@ import org.springframework.core.env.MutablePropertySources;
 import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.core.env.EnvironmentCapable;
+import org.junit.Before;
 
 import static org.junit.Assert.assertFalse;
 
